@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzJerseyShop
+namespace Classes
 {
     public class Pessoa
     {
@@ -34,25 +34,23 @@ namespace AzJerseyShop
         /// <summary>
         /// Email de Pessoa
         /// </summary>
-        public string Email { get; set; }
+        private string Email { get; set; }
 
         /// <summary>
         /// Nome de Pessoa
         /// </summary>
-        public string Nome { get; set; }
+        private string Nome { get; set; }
 
         /// <summary>
         /// Password de Pessoa
         /// </summary>
-        public string Password { get; set; }
+        private String Password { get; set; }
 
         /// <summary>
         /// Numero Telemovel de Pessoa
         /// </summary>
-        public int NumeroTelemovel { get; set; }
+        private int NumeroTelemovel { get; set; }
 
         #endregion
     }
 }
-
-teste
