@@ -16,7 +16,7 @@ namespace Classes
         /// </summary>
         /// <param name="produto">Produto a ser adicionado.</param>
         public void AdicionarProduto(Produto produto)
-        {
+        {           
             itens.Add(produto);
         }
 
