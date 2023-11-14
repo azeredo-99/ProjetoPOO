@@ -8,7 +8,7 @@ namespace AzJerseyShop
 {
     public class Pessoa
     {
-        #region Construtor
+        #region CONSTRUTOR
 
         /// <summary>
         /// Construtor para Pessoa
