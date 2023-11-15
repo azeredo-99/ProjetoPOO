@@ -16,9 +16,10 @@ public class Staff : Pessoa
     /// <param name="nome">Nome do staff.</param>
     /// <param name="password">Senha do staff.</param>
     /// <param name="numeroTelemovel">Número de Telemóvel do staff.</param>
-    public Staff(string email, string nome, string password, int numeroTelemovel)
+    public Staff(string email, string nome, string password, int numeroTelemovel, int staffID)
         : base(email, nome, password, numeroTelemovel)
     {
+        StaffID = staffID;
         // Pode adicionar inicializações específicas para a classe Staff, se necessário.
     }
 
@@ -26,7 +27,7 @@ public class Staff : Pessoa
 
     #region Estado
 
-    // Pode adicionar propriedades específicas da classe Staff, se necessário.
+    public int StaffID { get; private set; }
 
     #endregion
 }

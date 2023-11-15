@@ -18,13 +18,17 @@ namespace Classes
         /// <param name="nome">Nome do cliente.</param>
         /// <param name="password">Senha do cliente.</param>
         /// <param name="numeroTelemovel">Número de Telemóvel do cliente.</param>
-        public Cliente(string email, string nome, string password, int numeroTelemovel)
+        public Cliente(string email, string nome, string password, int numeroTelemovel, int clienteID)
             : base(email, nome, password, numeroTelemovel)
-        { }
+        {
+            ClienteID = clienteID;
+        }
 
         #endregion
 
         #region Estado
+
+        public int ClienteID { get; private set; }
 
         #endregion
     }
