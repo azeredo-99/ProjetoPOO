@@ -23,7 +23,7 @@ namespace Classes
         /// <summary>
         /// Cliente que fez a avaliação.
         /// </summary>
-        public Pessoa Pessoa { get; set; }
+        public Cliente Cliente { get; set; }
 
         /// <summary>
         /// Classificação da avaliação (por exemplo, de 1 a 5 estrelas).

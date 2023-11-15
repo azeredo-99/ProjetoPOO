@@ -11,9 +11,6 @@ namespace Classes
     {
         #region CONSTRUTORES
 
-        /// <summary>
-        /// Construtor da classe Pagamento.
-        /// </summary>
         public Pagamento()
         {
             // Inicializações necessárias...
@@ -29,7 +26,7 @@ namespace Classes
         /// <param name="dataPagamento">Data do pagamento.</param>
         public Pagamento(int id, Pedido pedido, float metodoPagamento, float valor, DateTime dataPagamento)
         {
-            Id = id;  // Aqui está o problema, pois a propriedade "Id" não foi declarada na classe Pagamento.
+            Id = id;  
             Pedido = pedido;
             MetodoPagamento = metodoPagamento;
             Valor = valor;
@@ -40,15 +37,14 @@ namespace Classes
 
         #region ESTADO
 
-        // Adicione a propriedade "Id" ao estado da classe Pagamento.
+        
         public int Id { get; set; }
+        public Pedido Pedido { get; set; }
         public float MetodoPagamento { get; set; }
-        public int DataPagamento { get; set; }
+        public DateTime DataPagamento { get; set; }
         public float Valor { get; set; }
 
         
-
-        // Outras propriedades...
 
         #endregion
     }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Pessoa
+    public abstract class Pessoa
     {
         #region CONSTRUTOR
 
