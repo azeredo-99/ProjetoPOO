@@ -14,10 +14,7 @@ namespace Classes
 
         public event EventHandler Event;
 
-        public Avaliacao()
-        {
-            throw new System.NotImplementedException();
-        }
+        public Avaliacao() => throw new System.NotImplementedException();
 
         #region ESTADO
 

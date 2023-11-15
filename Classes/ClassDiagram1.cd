@@ -74,7 +74,7 @@
       <FileName>CarrinhoDeCompras.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Classes.Avaliacao" HideInheritanceLine="true">
+  <Class Name="Classes.Avaliacao">
     <Position X="12.75" Y="5.5" Width="1.5" />
     <Members>
       <Event Name="Event" Hidden="true" />
