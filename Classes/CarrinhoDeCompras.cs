@@ -11,6 +11,8 @@ namespace Classes
     {
         private List<Produto> itens = new List<Produto>();
 
+        public event EventHandler Event;
+
         /// <summary>
         /// Adiciona um produto ao carrinho.
         /// </summary>

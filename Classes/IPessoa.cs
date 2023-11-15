@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    internal class IPessoa
+    namespace Classes
     {
+        public interface IPessoa
+        {
+            int InserirPessoa();
+            int UpdatePessoa();
+            int RemoverPessoa();
+
+        }
     }
+
 }

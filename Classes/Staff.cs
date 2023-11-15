@@ -20,7 +20,6 @@ public class Staff : Pessoa
         : base(email, nome, password, numeroTelemovel)
     {
         StaffID = staffID;
-        // Pode adicionar inicializações específicas para a classe Staff, se necessário.
     }
 
     #endregion

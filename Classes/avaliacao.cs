@@ -10,6 +10,17 @@ namespace Classes
 
     public class Avaliacao
     {
+        private int field;
+
+        public event EventHandler Event;
+
+        public Avaliacao()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        #region ESTADO
+
         /// <summary>
         /// Identificador único da avaliação.
         /// </summary>
@@ -26,7 +37,7 @@ namespace Classes
         public Cliente Cliente { get; set; }
 
         /// <summary>
-        /// Classificação da avaliação (por exemplo, de 1 a 5 estrelas).
+        /// Classificação da avaliação, de 1 a 5 estrelas).
         /// </summary>
         public int Classificacao { get; set; }
 
@@ -36,10 +47,21 @@ namespace Classes
         public string Comentario { get; set; }
 
         /// <summary>
+        /// Email associado à avaliação.
+        /// </summary>
+        public string Email { get; set; }
+
+        /// <summary>
         /// Data da avaliação.
         /// </summary>
         public DateTime Data { get; set; }
 
-        // Outras propriedades ou métodos relevantes para uma avaliação.
+        #endregion 
+
+        public void Method()
+        {
+            throw new System.NotImplementedException();
+        }
+
     }
 }

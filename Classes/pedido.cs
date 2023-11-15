@@ -11,23 +11,23 @@ namespace Classes
     {
         #region CONSTRUTORES
 
-            /// <param name="id">Identificador único do pedido.</param>
-            /// <param name="cliente">Cliente que fez o pedido.</param>
-            /// <param name="dataPedido">Data do pedido.</param>
-            /// <param name="status">Status do pedido.</param>
-            public Pedido(int id, Cliente cliente, DateTime dataPedido, float status)
-            {
-                Id = id;
-                Cliente = cliente;
-                DataPedido = dataPedido;
-                Status = status;
-                Itens = new List<ItemPedido>();
-            }
+        /// <param name="id">Identificador único do pedido.</param>
+        /// <param name="cliente">Cliente que fez o pedido.</param>
+        /// <param name="dataPedido">Data do pedido.</param>
+        /// <param name="status">Status do pedido.</param>
+        public Pedido(int id, Cliente cliente, DateTime dataPedido, float status)
+        {
+            Id = id;
+            Cliente = cliente;
+            DataPedido = dataPedido;
+            Status = status;
+            Itens = new List<ItemPedido>();
+        }
 
         #endregion
 
         #region ESTADO
-        // Adicione a propriedade "Id" ao estado da classe Pagamento.
+      
         public int Id { get; set; }
         public Cliente Cliente { get; private set; }
         public float Status { get; set; }
@@ -36,4 +36,4 @@ namespace Classes
         public float Valor { get; set; }
     }
 }
-       #endregion
+#endregion

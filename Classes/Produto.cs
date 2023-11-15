@@ -23,7 +23,6 @@ namespace Classes
             this.Id = id;
             this.Nome = nome;
             this.Preco = preco;
-            // Pode inicializar outras propriedades ou realizar outras operações necessárias.
         }
 
         #endregion

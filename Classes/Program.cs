@@ -16,7 +16,7 @@
             Console.WriteLine($"Preço: {Produto1.Preco} euros\n");
 
 
-            // Criar um produto com ID 1, chamado "Camisola SL Benfica" e custa 26 euros
+            // Criar um produto com ID 2, chamado "Camisola FC Porto" e custa 26 euros
             Produto Produto2 = new Produto(2, "Camisola FC Porto", 26);
 
 

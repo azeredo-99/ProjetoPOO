@@ -11,11 +11,6 @@ namespace Classes
     {
         #region CONSTRUTORES
 
-        public Pagamento()
-        {
-            // Inicializações necessárias...
-        }
-
         /// <summary>
         /// Construtor da classe Pagamento com parâmetros.
         /// </summary>
@@ -24,9 +19,9 @@ namespace Classes
         /// <param name="metodoPagamento">Método de pagamento.</param>
         /// <param name="valor">Valor do pagamento.</param>
         /// <param name="dataPagamento">Data do pagamento.</param>
-        public Pagamento(int id, Pedido pedido, float metodoPagamento, float valor, DateTime dataPagamento)
+        public Pagamento(int id, Pedido pedido, string metodoPagamento, float valor, DateTime dataPagamento)
         {
-            Id = id;  
+            Id = id;
             Pedido = pedido;
             MetodoPagamento = metodoPagamento;
             Valor = valor;
@@ -37,14 +32,14 @@ namespace Classes
 
         #region ESTADO
 
-        
+
         public int Id { get; set; }
         public Pedido Pedido { get; set; }
-        public float MetodoPagamento { get; set; }
+        public string MetodoPagamento { get; set; }
         public DateTime DataPagamento { get; set; }
         public float Valor { get; set; }
 
-        
+
 
         #endregion
     }

@@ -44,7 +44,7 @@ namespace Classes
         /// <summary>
         /// Password de Pessoa
         /// </summary>
-        private String Password { get; set; }
+        private string Password { get; set; }
 
         /// <summary>
         /// Numero Telemovel de Pessoa
